@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GaritasTJ Pro - Adrian Gaxiola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#020617] text-white font-sans p-4 min-h-screen">
+    
+    <!-- Encabezado -->
+    <header class="mb-6">
+        <h1 class="text-emerald-400 font-black text-2xl">GARITASTJ PRO</h1>
+        <p class="text-slate-500 text-xs font-bold uppercase">Datos colaborativos por Adrian Gaxiola</p>
+    </header>
+
+    <!-- Selector de Carril -->
+    <div class="flex gap-2 mb-6">
+        <button class="bg-emerald-600 text-xs font-bold px-3 py-2 rounded-lg transition-all">General</button>
+        <button class="bg-slate-800 text-xs font-bold px-3 py-2 rounded-lg transition-all">Ready Lane</button>
+        <button class="bg-slate-800 text-xs font-bold px-3 py-2 rounded-lg transition-all">SENTRI</button>
+    </div>
+
+    <!-- Garitas -->
+    <div class="space-y-4">
+        <div class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-center">
+                <p class="font-bold">San Ysidro <span class="text-emerald-500 text-sm">▲</span></p>
+                <a href="https://bwt.cbp.gov/" target="_blank" class="text-xs underline text-slate-400 hover:text-emerald-400">Cámaras Oficiales</a>
+            </div>
+            <p class="text-5xl font-black mt-1">35 <span class="text-xl font-normal text-slate-500">min</span></p>
+        </div>
+        
+        <div class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-center">
+                <p class="font-bold">Otay Mesa <span class="text-rose-500 text-sm">▼</span></p>
+                <a href="https://bwt.cbp.gov/" target="_blank" class="text-xs underline text-slate-400 hover:text-emerald-400">Cámaras Oficiales</a>
+            </div>
+            <p class="text-5xl font-black mt-1">90 <span class="text-xl font-normal text-slate-500">min</span></p>
+        </div>
+    </div>
+
+    <!-- Tips -->
+    <div class="mt-6 p-4 bg-slate-900 rounded-2xl border border-slate-800">
+        <h3 class="font-bold text-amber-400 mb-2">💡 Tips de Viajero</h3>
+        <p class="text-xs text-slate-400 italic">"Ten tu pasaporte o visa a la mano antes de llegar a la caseta para agilizar el cruce."</p>
+    </div>
+
+    <!-- Emergencia -->
+    <a href="tel:911" class="mt-6 block w-full bg-red-600 py-4 rounded-2xl text-center font-black active:scale-95 transition-all">EMERGENCIA (911)</a>
+
+    <!-- Footer -->
+    <footer class="mt-8 text-center pb-6 text-[10px] text-slate-600 font-bold uppercase tracking-widest">
+        GaritasTJ Pro - Desarrollado por Adrian Gaxiola
+    </footer>
+</body>
+</html>
